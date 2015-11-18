@@ -10,6 +10,7 @@ env:
   - secure: Fs/z5iW1Hb+yIMwYqJewV0VoBJqgrAaEj46upws9h12+ZiPzsz/yvjy8PM2hv5J1Sq4JGqn5AJUiJrjkEV7jJsXkTkRnjbuUTLpM/L8ROQD5b+e8iIPHi8OeW6GmWXS3fPdu7el9BnqBwU8F9/Tdy309A9efZV98iIb1Lz9IdmUGlA27vAXP2CGDeinyegAsvBpcSFYMCyj1wHYsskLGfRhLjPNdy2oZ5MguUJuGs1jzM3ThOCs8WTwx48+R7lFyNgO+zpcusysb9b+uLf9Ltw03HtvwJhpq9ieKo2ubs/7xe9s8yqx+ndvI0tT7MkmGzjTZP/2y4b28ma45u67xAg==
  matrix:
   - Foo=bar
+  - test=111
 
 before_install:
   - export GOPATH=$SHIPPABLE_GOPATH
