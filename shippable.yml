@@ -1,5 +1,6 @@
 language: go
 
+archive: true
 go:
   - 1.2
 
